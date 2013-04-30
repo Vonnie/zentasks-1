@@ -40,8 +40,3 @@ dist
 I dislike always having to apply migrations so I use the optional:
 
 `-DapplyEvolutions.default=true` when I run the `play` command. It seems minor but every little thing you can do to save a few seconds of development time helps.
-
-
-**Disclaimer**
-
-> I am by no means a Java guru so any changes that I may make to this codebase to suit my own needs may or may not be best practices. In general I fall back to Python for my main development tasks but I wanted to branch out and try something new.
