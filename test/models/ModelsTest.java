@@ -79,7 +79,7 @@ public class ModelsTest extends WithApplication {
 
     @Test
     public void fullTest() {
-        Ebean.save((List) Yaml.load("test-data.yml"));
+        Ebean.save((List) Yaml.load("initial-data.yml"));
 
         // Count things
         assertEquals(3, User.find.findRowCount());
